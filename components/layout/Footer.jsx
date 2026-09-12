@@ -96,6 +96,8 @@ export default function Footer() {
                                 alt={`${church.name} Iglesia`}
                                 width={190}
                                 height={120}
+                                sizes="190px"
+                                className="h-auto w-[190px]"
 
                             />
 
