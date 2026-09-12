@@ -1,11 +1,15 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 
 import { navigationLinks } from "@/content/navigation";
 import Button from "@/components/ui/Button";
 import MobileMenu from "@/components/layout/mobile/MobileMenu";
+import { usePathname } from "next/navigation";
 
 export default function Header() {
+
+    const pathname = usePathname();
     return (
         <header className="fixed inset-x-0 top-5 z-50 w-full">
             <div className="site-container">
@@ -36,21 +40,29 @@ export default function Header() {
                         className="hidden lg:block"
                     >
                         <ul className="flex items-center gap-10">
-                            {navigationLinks.map((item, index) => (
-                                <li key={item.href}>
-                                    <Link
-                                        href={item.href}
-                                        className={`
-                      text-sm font-semibold
-                      transition-colors duration-300
-                      hover:text-crimson
-                      ${index === 0 ? "text-crimson" : "text-ink"}
-                    `}
-                                    >
-                                        {item.label}
-                                    </Link>
-                                </li>
-                            ))}
+                            {navigationLinks.map((item) => {
+                                const isActive =
+                                    item.href === "/"
+                                        ? pathname === "/"
+                                        : pathname.startsWith(item.href);
+
+                                return (
+                                    <li key={item.href}>
+                                        <Link
+                                            href={item.href}
+                                            aria-current={isActive ? "page" : undefined}
+                                            className={`
+                            text-sm font-semibold
+                            transition-colors duration-300
+                            hover:text-crimson
+                            ${isActive ? "text-crimson" : "text-ink"}
+                        `}
+                                        >
+                                            {item.label}
+                                        </Link>
+                                    </li>
+                                );
+                            })}
                         </ul>
                     </nav>
 
