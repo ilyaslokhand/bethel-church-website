@@ -25,6 +25,7 @@ export default function Hero({
                 alt={imageAlt}
                 fill
                 priority={priority}
+                fetchPriority={priority ? "high" : undefined}
                 sizes="100vw"
                 className="-z-20 object-cover"
             />
