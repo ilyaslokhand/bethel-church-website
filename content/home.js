@@ -92,3 +92,48 @@ export const homeWelcome = {
     },
   },
 };
+
+export const homeSchedule = {
+  eyebrow: "Te estamos esperando",
+
+  title: "Horarios de servicio",
+
+  description:
+    "Ven tal como eres. Cada reunión está abierta para ti y tu familia.",
+
+  services: [
+    {
+      day: "Domingo",
+      name: "Escuela dominical y servicio evangelístico",
+      time: "4:00 PM",
+      dateTime: "16:00",
+    },
+    {
+      day: "Martes",
+      name: "Oración y estudio bíblico",
+      time: "7:30 PM",
+      dateTime: "19:30",
+    },
+    {
+      day: "Viernes",
+      name: "Servicio evangelístico y de avivamiento",
+      time: "7:30 PM",
+      dateTime: "19:30",
+    },
+  ],
+
+  image: {
+    src: "/images/service-schedule.png",
+    alt: "Personas estudiando la Biblia en la Iglesia Bethel",
+  },
+
+  button: {
+    label: "Qué esperar en tu primera visita",
+    href: "/visit",
+    iconSrc: "/icons/arrow-up-right.svg",
+  },
+
+  imagePosition: "right",
+  backgroundColor: "#FFFFFF",
+  rowBackgroundColor: "#FBF7EE",
+};

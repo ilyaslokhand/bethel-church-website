@@ -1,6 +1,9 @@
 import Footer from "@/components/layout/Footer";
 import "./globals.css";
 import Header from "@/components/layout/header";
+import "lenis/dist/lenis.css";
+import SmoothScroll from "@/components/motion/SmoothScroll";
+
 
 const siteUrl = "https://bethelrva.com";
 
@@ -139,6 +142,7 @@ export default function RootLayout({ children }) {
             </head>
 
             <body>
+                <SmoothScroll />
                 <Header/>
                 {children}
                 <Footer />
