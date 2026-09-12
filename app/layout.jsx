@@ -3,6 +3,10 @@ import "./globals.css";
 import Header from "@/components/layout/header";
 import "lenis/dist/lenis.css";
 import SmoothScroll from "@/components/motion/SmoothScroll";
+import {
+    Fraunces,
+    Plus_Jakarta_Sans,
+} from "next/font/google";
 
 
 const siteUrl = "https://bethelrva.com";
@@ -118,33 +122,45 @@ const churchSchema = {
     ],
 };
 
+const fraunces = Fraunces({
+    subsets: ["latin"],
+    weight: "600",
+    style: ["normal", "italic"],
+    axes: ["SOFT", "WONK"],
+    variable: "--font-fraunces",
+    display: "swap",
+});
+
+const plusJakartaSans = Plus_Jakarta_Sans({
+    subsets: ["latin"],
+    weight: ["500", "600"],
+    variable: "--font-plus-jakarta",
+    display: "swap",
+});
+
 export default function RootLayout({ children }) {
     return (
-        <html lang="es-US">
-            <head>
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link
-                    rel="preconnect"
-                    href="https://fonts.gstatic.com"
-                    crossOrigin="anonymous"
-                />
-                <link
-                    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,600,0,1;1,9..144,600,0,1&family=Plus+Jakarta+Sans:wght@500;600&display=swap"
-                    rel="stylesheet"
-                />
-
+        <html
+            lang="es"
+            className={`${fraunces.variable} ${plusJakartaSans.variable}`}
+        >
+            <body>
                 <script
+                    id="bethel-church-schema"
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{
-                        __html: JSON.stringify(churchSchema).replace(/</g, "\\u003c"),
+                        __html: JSON.stringify(churchSchema).replace(
+                            /</g,
+                            "\\u003c"
+                        ),
                     }}
                 />
-            </head>
 
-            <body>
                 <SmoothScroll />
-                <Header/>
+                <Header />
+
                 {children}
+
                 <Footer />
             </body>
         </html>
