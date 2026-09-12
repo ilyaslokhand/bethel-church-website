@@ -55,9 +55,9 @@ export default function Footer() {
                         fromColor="rgba(255, 255, 255, 0.25)"
                         toColor="#FFFFFF"
                         start="top 100%"
-                        end="top 60%"
-                        scrub={0.8}
-                        stagger={0.1}
+                        end="top 10%"
+                        scrub={1.5}
+                        stagger={0.06}
                     >
                         {cta.title}
                     </SplitTextReveal>

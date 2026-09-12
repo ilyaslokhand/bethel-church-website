@@ -69,7 +69,7 @@ export default function SplitTextReveal({
                 })
                 .to(split.chars, {
                     color: toColor,
-                    duration: 0.3,
+                    duration: 1,
                     stagger,
                     ease: "none",
                 });

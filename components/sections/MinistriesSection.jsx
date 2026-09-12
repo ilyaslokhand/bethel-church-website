@@ -41,7 +41,7 @@ export default function MinistriesSection() {
                     {/* Section heading */}
                     <div className="flex max-w-2xl flex-col gap-3">
 
-                        
+
                         <p className="text-sm font-semibold text-crimson">
                             Ministerios en Bethel
                         </p>
@@ -52,9 +52,9 @@ export default function MinistriesSection() {
                             fromColor="#C21E384D"
                             toColor="#1E1E1E"
                             start="top 100%"
-                            end="top 60%"
-                            scrub={0.8}
-                            stagger={0.1}
+                            end="top 10%"
+                            scrub={1.5}
+                            stagger={0.06}
 
                         >
                             Donde puedes conectarte
