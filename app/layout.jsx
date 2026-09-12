@@ -124,7 +124,7 @@ const churchSchema = {
 
 const fraunces = Fraunces({
     subsets: ["latin"],
-    weight: "600",
+    weight: "variable",
     style: ["normal", "italic"],
     axes: ["SOFT", "WONK"],
     variable: "--font-fraunces",
