@@ -19,9 +19,9 @@ export default function SmoothScroll() {
             wheelMultiplier: 0.9,
 
             // Keep the browser's optimized native touch scrolling.
-            syncTouch: true,
-            touchMultiplier: 0.85,
-           
+            syncTouch: false,
+            touchMultiplier: 1,
+
 
             anchors: true,
             autoToggle: true,
