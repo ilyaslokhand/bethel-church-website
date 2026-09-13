@@ -1,5 +1,6 @@
 import Hero from "@/components/sections/Hero";
 import OverlapSection from "@/components/motion/OverlapSection";
+import AboutLeadership from "@/components/sections/AboutLeadership";
 
 
 import {
@@ -8,6 +9,7 @@ import {
 import AboutIntro from "@/components/sections/AboutIntro";
 import MissionVision from "@/components/sections/MissionVision";
 import AboutValues from "@/components/sections/AboutValues";
+import AboutDoctrine from "@/components/sections/AboutDoctrine";
 
 export default function AboutPage() {
     return (
@@ -20,12 +22,10 @@ export default function AboutPage() {
             </OverlapSection>
             <MissionVision />
             <AboutValues />
+            <AboutDoctrine />
+            <AboutLeadership/>
 
-            {/* <div className="relative z-10 bg-paper">
-                <ImageStatement {...connectStatement} />
-            </div>
-             <ConnectMinistries {...connectMinistries} />
-             <NextSteps /> */}
+         
         </main>
     );
 }
