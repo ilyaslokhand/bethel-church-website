@@ -3,6 +3,7 @@ import ConnectWelcome from "@/components/sections/ConnectWelcome";
 import ImageStatement from "@/components/sections/ImageStatement";
 import OverlapSection from "@/components/motion/OverlapSection";
 import ConnectMinistries from "@/components/sections/ConnectMinistries";
+import NextSteps from "@/components/sections/NextSteps";
 
 import {
     connectHero,
@@ -25,6 +26,7 @@ export default function ConnectPage() {
                 <ImageStatement {...connectStatement} />
             </div>
              <ConnectMinistries {...connectMinistries} />
+             <NextSteps />
         </main>
     );
 }
