@@ -9,6 +9,8 @@ export default function ServiceSchedule({
     description,
     services,
     image,
+    roundedTop = false,
+
     button,
     imagePosition = "right",
     backgroundColor = "#FFFFFF",
@@ -21,8 +23,10 @@ export default function ServiceSchedule({
 
     return (
         <section
-            className="py-20 md:py-24"
+            className={`py-20 md:py-24 ${roundedTop ? "relative z-10 rounded-t-section" : ""
+                }`}
             style={{ backgroundColor }}
+
         >
             <div className="site-container">
                 <div

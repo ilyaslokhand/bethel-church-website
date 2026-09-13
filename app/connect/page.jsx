@@ -22,7 +22,7 @@ export default function ConnectPage() {
                 <ConnectWelcome {...connectWelcome} />
             </OverlapSection>
 
-             <div className="relative z-10 bg-paper">
+             <div className="relative z-10 ">
                 <ImageStatement {...connectStatement} />
             </div>
              <ConnectMinistries {...connectMinistries} />

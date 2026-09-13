@@ -21,7 +21,7 @@ export const connectHero = {
     },
     {
       label: "Horarios",
-      href: "/visit",
+      href: "/visit/horarios",
       iconSrc: "/icons/arrow-up-right.svg",
       iconPosition: "right",
       backgroundColor: "transparent",
