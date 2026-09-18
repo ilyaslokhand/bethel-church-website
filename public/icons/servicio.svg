@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+  <path
+    d="M30 23C26.5 17 18 16 14.5 21.5C10.5 27.5 15 34 30 44C45 34 49.5 27.5 45.5 21.5C42 16 33.5 17 30 23Z"
+    stroke="#C21E38"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M8 44L16 40L25 47H38C40.5 47 42.5 49 42.5 51.5H22L12 47"
+    stroke="#C21E38"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M52 44L44 40L37 45"
+    stroke="#C21E38"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

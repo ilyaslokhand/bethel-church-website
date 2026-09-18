@@ -12,7 +12,7 @@ export const navigationLinks = [
     href: "/connect",
   },
   {
-    label: "Visita y Ofrenda",
+    label: "Visita",
     href: "/visit",
   },
 ];

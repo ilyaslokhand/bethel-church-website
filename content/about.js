@@ -2,9 +2,9 @@ export const aboutHero = {
     title: ["CONÓCENOS"],
 
     description:
-        "Dios nos ha llamado a establecer Bethel en Hopewell, Virginia. Somos una iglesia centrada en Jesucristo, Su Palabra y la obra del Espíritu Santo.",
+        "Dios nos ha llamado a establecer Bethel en Richmond, Virginia. Somos una iglesia centrada en Jesucristo, Su Palabra y la obra del Espíritu Santo.",
 
-    backgroundImage: "/images/about-hero.webp",
+    backgroundImage: "/images/people-worshipping.png",
     imageAlt: "Congregación de Bethel reunida en adoración",
 
     buttons: [

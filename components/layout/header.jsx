@@ -29,8 +29,7 @@ export default function Header() {
                             alt="Bethel Iglesia"
                             width={106}
                             height={68}
-                            priority
-                            className="h-auto w-[88px] lg:w-[106px]"
+                            className="h-[56px] w-auto lg:h-[68px]"
                         />
                     </Link>
 

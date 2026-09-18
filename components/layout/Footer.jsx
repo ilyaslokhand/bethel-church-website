@@ -95,10 +95,8 @@ export default function Footer() {
                                 src={church.logo}
                                 alt={`${church.name} Iglesia`}
                                 width={190}
-                                height={120}
-                                sizes="190px"
-                                className="h-auto w-[190px]"
-
+                                height={122}
+                                className="h-[122px] w-auto"
                             />
 
                             <p className="max-w-xs text-sm leading-7">

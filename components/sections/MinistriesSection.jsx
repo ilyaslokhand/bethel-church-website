@@ -21,7 +21,7 @@ const ministries = [
         title: "Evangelismo y Alcance",
         description:
             "Alcanzamos a las almas perdidas y compartimos el Evangelio en nuestra comunidad.",
-        status: "Próximamente",
+        status: "Mensual",
         icon: "/icons/evangelism.svg",
     },
     {

@@ -25,7 +25,7 @@ export default function MissionVision() {
                                 Cumplir la Gran Comisión.
                             </SplitTextReveal>
 
-                            
+
                         </div>
 
                         <p className="leading-8 text-white/90">
@@ -70,10 +70,7 @@ export default function MissionVision() {
                         </div>
 
                         <p className="leading-8 text-white/90">
-                            A medida que Bethel crece y fortalece sus bases,
-                            deseamos desarrollar ministerios que sirvan a la
-                            iglesia y compartan el Evangelio en Hopewell y el
-                            área de Richmond.
+                            Nuestro enfoque es alcanzar las almas perdidas para que en Bethel puedan tener un encuentro personal con nuestro Salvador y Señor Jesucristo, siendo transformados en seguidores fieles de Él, caminando en su propósito divino, sirviendo al prójimo y proclamando el Evangelio con poder y amor.
                         </p>
 
                         <p className="leading-8 text-white/90">

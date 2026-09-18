@@ -19,7 +19,7 @@ export const footerContent = {
     name: "Bethel",
     logo: "/images/bethel-logo.svg",
     description:
-      "Casa de Dios, puerta del cielo. Una iglesia llena del Espíritu en Hopewell, Virginia.",
+      "Casa de Dios, puerta del cielo. Una iglesia llena del Espíritu en Richmond, Virginia.",
   },
 
   services: [

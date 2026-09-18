@@ -2,11 +2,11 @@ export const homeHero = {
   title: ["BETHEL", "CASA DE DIOS"],
 
   description:
-    "Una iglesia llena del Espíritu en Hopewell, Virginia, donde Jesucristo es el centro de todo lo que hacemos.",
+    "Una iglesia llena del Espíritu en Richmond, Virginia, donde Jesucristo es el centro de todo lo que hacemos.",
 
   backgroundImage: "/images/home-hero.webp",
 
-  imageAlt: "Edificio de la Iglesia Bethel en Hopewell, Virginia",
+  imageAlt: "Edificio de la Iglesia Bethel en Richmond, Virginia",
 
   buttons: [
     {
@@ -36,7 +36,6 @@ export const homeHero = {
   ],
 };
 
-
 export const homeStatement = {
   eyebrow: "Nuestro nombre, nuestro fundamento",
 
@@ -49,8 +48,7 @@ export const homeStatement = {
 
   backgroundImage: "/images/bethel-meaning.jpg",
 
-  imageAlt:
-    "Congregación adorando durante un servicio en la Iglesia Bethel",
+  imageAlt: "Congregación adorando durante un servicio en la Iglesia Bethel",
 };
 
 export const homeWelcome = {
@@ -63,10 +61,10 @@ export const homeWelcome = {
   },
 
   title:
-    "En los tiempos que vivimos, hemos sido plantados aquí por una razón.",
+    "En los tiempos finales que vivimos, hemos sido plantados aquí por una razón.",
 
   paragraphs: [
-    "Nuestro Señor Jesucristo es el centro de todo lo que hacemos. Nos apasiona alcanzar a los perdidos, transformar vidas mediante el poder del Evangelio y formar discípulos llenos del Espíritu que vivan el propósito de Dios y compartan su amor con el mundo.",
+    "Nuestro Señor Jesucristo es el centro de todo lo que hacemos. Nos apasiona alcanzar a los perdidos, transformar vidas mediante el poder del Evangelio y formar discípulos llenos del Espíritu Santo que vivan el propósito de Dios y compartan su amor con el mundo hasta el pronto regreso de Jesús.",
 
     "Te invitamos a acompañarnos, escuchar la Palabra de Dios, recibir tu milagro y experimentar una vida que nunca volverá a ser igual.",
   ],
@@ -99,7 +97,7 @@ export const homeSchedule = {
   title: "Horarios de servicio",
 
   description:
-    "Ven tal como eres. Cada reunión está abierta para ti y tu familia.",
+    "Ven tal como eres y estas. Cada reunión está abierta para ti y tu familia.",
 
   services: [
     {

@@ -98,8 +98,7 @@ export default function MobileMenu() {
                             alt="Bethel Iglesia"
                             width={106}
                             height={68}
-                            priority
-
+                            className="h-[56px] w-auto lg:h-[68px]"
                         />
                     </Link>
 
