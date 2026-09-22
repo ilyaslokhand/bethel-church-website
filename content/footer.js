@@ -19,7 +19,7 @@ export const footerContent = {
     name: "Bethel",
     logo: "/images/bethel-logo.svg",
     description:
-      "Casa de Dios, puerta del cielo. Una iglesia llena del Espíritu en Richmond, Virginia.",
+      "Casa de Dios, puerta del cielo. Una iglesia de las Asambleas de Dios llena del Espíritu Santo en Richmond, Virginia."
   },
 
   services: [
