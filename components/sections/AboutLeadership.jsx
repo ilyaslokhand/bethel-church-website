@@ -10,7 +10,7 @@ export default function AboutLeadership() {
                 <div className="mx-auto grid  items-center gap-10 lg:grid-cols-2 lg:gap-20">
                     <div className="relative aspect-[540/480] overflow-hidden rounded-img">
                         <Image
-                            src="/images/about-leadership.png"
+                            src="/images/about-leadership.jpeg"
                             alt="Liderazgo de la iglesia Bethel"
                             fill
                             sizes="(max-width: 1023px) calc(100vw - 40px), 540px"
