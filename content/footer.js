@@ -24,18 +24,18 @@ export const footerContent = {
 
   services: [
     {
+      day: "sábado",
+      time: "7:00 PM",
+      name: "Oración y estudio bíblico",
+    },
+    {
       day: "Domingos",
       time: "4:00 PM",
       name: "Escuela dominical y servicio evangelístico",
     },
     {
       day: "Martes",
-      time: "7:30 PM",
-      name: "Oración y estudio bíblico",
-    },
-    {
-      day: "Viernes",
-      time: "7:30 PM",
+      time: "7:00 PM",
       name: "Servicio evangelístico y de avivamiento",
     },
   ],

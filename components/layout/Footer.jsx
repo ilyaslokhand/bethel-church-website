@@ -165,16 +165,8 @@ export default function Footer() {
                     {/* Footer bottom */}
                     <div className="flex flex-col gap-6 border-t border-line pt-6 sm:flex-row sm:items-center sm:justify-between">
                         <p className="text-sm text-ink">
-                            © 2026 Bethel. Todos los derechos reservados. Diseñado por{" "}
-                            <a
-                                href="https://ilyaslokhand.vercel.app/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="font-bold underline-offset-4 transition-colors hover:text-crimson hover:underline"
-                            >
-                                Ilyas
-                            </a>
-                            .
+                            © 2026 Bethel. Todos los derechos reservados. 
+                            
                         </p>
 
                         <div className="flex items-center gap-3">
