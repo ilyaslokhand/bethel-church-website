@@ -59,12 +59,12 @@ export const visitSchedule = {
     {
       day: "Martes",
       name: "Oración y estudio bíblico",
-      time: "7:30 PM",
+      time: "7:00 PM",
     },
     {
-      day: "Viernes",
+      day: "Sábado",
       name: "Servicio evangelístico y de avivamiento",
-      time: "7:30 PM",
+      time: "7:00 PM",
     },
   ],
 

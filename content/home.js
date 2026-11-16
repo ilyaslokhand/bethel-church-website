@@ -109,14 +109,14 @@ export const homeSchedule = {
     {
       day: "Martes",
       name: "Oración y estudio bíblico",
-      time: "7:30 PM",
-      dateTime: "19:30",
+      time: "7:00 PM",
+      dateTime: "19:00",
     },
     {
-      day: "Viernes",
+      day: "Sábado ",
       name: "Servicio evangelístico y de avivamiento",
-      time: "7:30 PM",
-      dateTime: "19:30",
+      time: "7:00 PM",
+      dateTime: "19:00",
     },
   ],
 
