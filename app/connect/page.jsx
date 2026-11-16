@@ -11,6 +11,13 @@ import {
     connectStatement,
     connectMinistries,
 } from "@/content/connect";
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata = pageMetadata({
+    title: "Conéctate",
+    description: "Encuentra tu lugar en Bethel: ministerios, grupos y formas de involucrarte en nuestra comunidad en Hopewell, VA.",
+    path: "/connect",
+});
 
 export default function ConnectPage() {
     return (
@@ -22,11 +29,11 @@ export default function ConnectPage() {
                 <ConnectWelcome {...connectWelcome} />
             </OverlapSection>
 
-             <div className="relative z-10 ">
+            <div className="relative z-10 ">
                 <ImageStatement {...connectStatement} />
             </div>
-             <ConnectMinistries {...connectMinistries} />
-             <NextSteps />
+            <ConnectMinistries {...connectMinistries} />
+            <NextSteps />
         </main>
     );
 }

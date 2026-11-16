@@ -10,6 +10,13 @@ import AboutIntro from "@/components/sections/AboutIntro";
 import MissionVision from "@/components/sections/MissionVision";
 import AboutValues from "@/components/sections/AboutValues";
 import AboutDoctrine from "@/components/sections/AboutDoctrine";
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata = pageMetadata({
+    title: "Quiénes Somos",
+    description: "Conoce la misión, los valores, la doctrina y el liderazgo de Bethel, iglesia cristiana en Hopewell, Virginia.",
+    path: "/about",
+});
 
 export default function AboutPage() {
     return (
@@ -23,9 +30,9 @@ export default function AboutPage() {
             <MissionVision />
             <AboutValues />
             <AboutDoctrine />
-            <AboutLeadership/>
+            <AboutLeadership />
 
-         
+
         </main>
     );
 }

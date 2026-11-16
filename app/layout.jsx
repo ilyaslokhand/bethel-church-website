@@ -39,9 +39,6 @@ export const metadata = {
         "iglesia cristiana Virginia",
     ],
 
-    alternates: {
-        canonical: "/",
-    },
 
     openGraph: {
         type: "website",

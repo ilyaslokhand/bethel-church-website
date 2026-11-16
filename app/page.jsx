@@ -6,6 +6,10 @@ import WelcomeSection from "@/components/sections/WelcomeSection";
 import ServiceSchedule from "@/components/sections/ServiceSchedule";
 import MinistriesSection from "@/components/sections/MinistriesSection";
 
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata = pageMetadata({ path: "/" });
+
 
 export default function HomePage() {
   return (
